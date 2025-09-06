@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 
 function App() {
@@ -85,7 +84,7 @@ function App() {
                   </select>
                 </div>
                 <div style={{ marginTop: ".6rem" }}>
-                  <textarea rows="3" placeholder="Notes (allergies, requests)" />
+                  <textarea rows={3} placeholder="Notes (allergies, requests)" />
                 </div>
                 <div
                   style={{
